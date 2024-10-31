@@ -145,6 +145,7 @@ ${isPackage ? "\n  static const String package = '$packageName';" : ''}
       case 'image/bmp':
       case 'image/vnd.wap.wbmp':
       case 'image/webp':
+      case 'image/heic':  
         return true;
       default:
         return false;
